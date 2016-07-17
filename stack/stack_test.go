@@ -3,7 +3,7 @@ package stack
 import "testing"
 
 func TestStackEmpty(t *testing.T) {
-	s := new(stack)
+	s := new(Stack)
 
 	if !s.IsEmpty() {
 		t.Errorf("Stack Size: expected 0 actual %d", s.Size())
@@ -13,7 +13,7 @@ func TestStackEmpty(t *testing.T) {
 }
 
 func TestStackNonEmpty(t *testing.T) {
-	s := new(stack)
+	s := new(Stack)
 	s.Push(125)
 	s.Push(257)
 
@@ -38,7 +38,7 @@ func TestStackNonEmpty(t *testing.T) {
 }
 
 func TestStackFull(t *testing.T) {
-	s := new(stack)
+	s := new(Stack)
 	for i:=0; i<10; i++ {
 		s.Push(i)
 	}
