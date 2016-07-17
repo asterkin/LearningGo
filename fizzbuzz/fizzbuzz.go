@@ -1,19 +1,17 @@
 package fizzbuzz
 
-import "fmt"
+import "strconv"
 
 func FizzBuzz(i int) string {
-	s := fmt.Sprintf("%d", i)
-	if i == 0 {
+	s := strconv.Itoa(i)
+	switch {
+	case i == 0:
 		return s
-	}
-	if i % 15 == 0 {
+	case i % 15 == 0:
 		return "FizzBuzz"
-	}
-	if i % 3 == 0 {
+	case i % 3 == 0:
 		return "Fizz"
-	}
-	if i % 5 == 0 {
+	case i % 5 == 0:
 		return "Buzz"
 	}
 	return s
