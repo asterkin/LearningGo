@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;map&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../GoTutorial" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../GoTutorial" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$/strings" />
+      <root url="file://$PROJECT_DIR$/fibonacci" />
+      <root url="file://$PROJECT_DIR$/greeting" />
+      <root url="file://$PROJECT_DIR$/map_function" />
+      <root url="file://$PROJECT_DIR$/numbers" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/fizzbuzz" />
+      <root url="file://$PROJECT_DIR$/stack" />
+    </excluded>
+  </library>
+</component>
